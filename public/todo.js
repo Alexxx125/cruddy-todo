@@ -12,7 +12,7 @@ window.Todo = {
       type: 'POST',
       dataType: 'json',
       data: {todoText: text},
-      success: callback
+      success: callback // we specify this callback to save the data in its own file
     });
   },
 
